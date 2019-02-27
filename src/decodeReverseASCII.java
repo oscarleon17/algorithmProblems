@@ -1,3 +1,7 @@
+//decodeReverseASCII takes a reversed string (e.x. olleh vs hello) in ASCII that is composed of only a-z 
+//and A-Z characters (65-90 and 97-122, respectively), as well as space characters (32), and then decodes
+//the string of numbers into a string of characters.
+
 import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
